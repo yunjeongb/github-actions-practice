@@ -36,5 +36,5 @@ jobs:
       
       - name: 아무한테도 노출이 되면 안되는 값
         run: |
-          echo ${{sercrets.MY_NAME}}
-          echo ${{sercrets.MY_HOBBY}}
+          echo ${{ sercrets.MY_NAME }}
+          echo ${{ sercrets.MY_HOBBY }}
